@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+body { 
+   box-sizing: border-box;
+   background-color: black;
+   color:white;
+   /* height: 100vh; */
+}
+
+h1{
+   font-weight: 800;
+   color:rgb(3, 215, 3)
+}
+.titulo-destaque{
+   color: rgb(0, 255, 38);
+}
+.apresentacao{
+   padding-top:5%;
+   padding-bottom: 10%;
+   padding-left: 10%;
+   display: flex;
+   align-items: center; /* alinha os itens */
+   justify-content: space-between;
+   align-items: center;
+}
+.apresentacao__about{
+   padding: 2% 10%  ;
+   display: flex;
+   align-items: center; /* alinha os itens */
+   justify-content: space-between;
+   align-items: center;
+}
+.apresentacao__conteudo__texto__about{
+   padding: 20px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 24px;
+}
+
+.apresentacao__conteudo__titulo{
+   font-family: 'Krona One', sans-serif;
+   font-size: 36px;
+}
+.apresentacao__conteudo__texto{
+   padding: 20px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 24px;
+}
+.apresentacao__conteudo__profile{
+   display: flex;
+   align-items: center;
+   
+}
+.profile{
+   margin:20px;
+   height: 200px ;
+   width: 350;
+   border: 4px solid;
+   border-radius: 10%;
+   border-color: rgb(0, 255, 38);
+
+}
+.apresentacao__conteudo__hardskills{
+   margin:20px;
+   box-sizing: border-box;
+   display: flex;
+   flex:1;
+}
+
+
+.apresentacao__conteudo__hardskills__lista{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start; /* Alinha os itens na esquerda */
+   padding-left: 30px;
+
+}
+
+.apresentacao__conteudo__hardskills__lista > p{
+   padding: 3%;
+
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.progress.skill__html{
+   background: rgb(0, 255, 38);
+   height: 20px;
+   width: 50px;
+   align-items: center;
+}
+.progress.skill__css{
+   background: rgb(0, 255, 38);
+   height: 20px;
+   width: 50px;
+   align-items: center;  
+}
+.progress.skill__js{
+   background: rgb(0, 255, 38);
+   height: 20px;
+   width: 50px;
+   align-items: center;  
+}
+
+
+.progress{
+   background-color:rgb(45, 45, 45);
+   border-radius: 90px;
+   box-shadow: inset 3px 2px 5px rgba(15, 135, 33, 0.824);/* offset-x | offset-y | blur-radius | color */
+}
+.progress.bar_end:hover{
+   background: rgb(0, 255, 38);
+   border-radius: 90px;
+   box-shadow: inset 3px 2px 100px rgba(15, 135, 33, 0.824);/* offset-x | offset-y | blur-radius | color */
+}
+
+.progress.bar_end{
+   background-color:rgb(45, 45, 45);
+   box-shadow: inset 3px 2px 5px rgba(15, 135, 33, 0.824);/* offset-x | offset-y | blur-radius | color */
+
+
+}
+
+
+
+
+
+
+
+.apresentacao__links{
+   display: flex;
+   gap:4%
+
+}
+
+
+.apresentacao__links_subtitulo{
+   font-family: "Krona One", sans-serif;
+   text-align: center;
+   font-weight: 400;
+   font-size: 24px;
+   padding-top: 10px;
+}
+
+.apresentacao__links__link{
+   /* background-color: rgb(0, 255, 38); */
+   display: flex;
+   gap:16px;
+   align-items: center;
+   justify-content: first baseline;
+   width: 178px;
+   height: 20px;
+   border-radius: 10px;
+   font-size: 16px;
+   padding: 10px 5px;
+   margin:9px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+   text-decoration: none;
+   color: rgb(0, 255, 38);
+}
+
+.apresentacao__links__link:hover{
+   background-color: rgb(19, 19, 19);
+   border: 4px solid rgb(0, 255, 38);
+}
+
+.rodape{
+   color: #FFFF;
+   text-align: center;
+   background-color: rgb(0, 255, 38);   
+   font-family: inherit;
+   font-size: 16px;
+   margin-top: 20%;
+}
+.cabecalho__menu{
+   padding: 2% 0% 0% 10%;
+   display: flex;
+   gap:2%; /* distância entre elementos   */
+   font-family: 'Montserrat', sans-serif;
+   font-family: 20px;
+   
+ 
+}
+.cabecalho__menu__link{
+   color: rgb(0, 255, 38);
+   text-decoration: none;
+}
+
+.cabecalho__menu__botao{
+   padding-top: 7px;
+   text-align: center;
+   width: 120px;
+   height: 30px;
+   border-radius: 10px;
+   font-size: 16px;
+   align-items: center;
+   align-content: center;
+
+}
+
+.cabecalho__menu__botao:hover{
+   padding-top: 7px;
+   text-align: center;
+   background-color: rgb(19, 19, 19);
+   border: 4px solid rgb(0, 255, 38);
+   width: 120px;
+   height: 30px;
+   border-radius: 10px;
+   font-size: 16px;
+   align-items: center;
+   align-content: center;
+
+}
