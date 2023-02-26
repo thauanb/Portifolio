@@ -2,28 +2,33 @@
    <html>
       <head>
          <title> Portifólio </title>
+         <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
          <link rel="stylesheet" href="./styles/style.css">
+         <script src="./assets/jquery/jquery.js"></script>
+         <script src="./assets/bootstrap/js/bootstrap.min.js"></script>       
       </head>
       <body>
          <header class="cabecalho">
             <nav class="cabecalho__menu">
                <div class="cabecalho__menu__botao">
-                  <a href="index.html"  class="cabecalho__menu__link">Home</a>
+                  <a href="index.html" role="button"  class="cabecalho__menu__link btn btn-outline-success btn-lg">Home</a>
 
                </div>
                <div class="cabecalho__menu__botao">
-                  <a href="about.html" class="cabecalho__menu__link">Sobre Mim</a>
+                  <a href="about.html" role="button"  class="cabecalho__menu__link btn btn-outline-success btn-lg">Sobre Mim</a>
                </div>
 
             </nav>
          </header>
+
+
          <main class="apresentacao">
             <section class="apresentacao__conteudo">              
                <h1 class="apresentacao__conteudo__titulo">Habilidades</h1>
                <p class="apresentacao__conteudo__texto">Olá! Sou Thauan Vieira de Barcellos ,  desenvolvedor Front-end com especialidade em <strong class="titulo-destaque">React, HTML e CSS.</strong>
                </p> 
                <div class="apresentacao__conteudo__profile">
-                  <img class="profile" src="./src/profile.png" alt="Thauan">
+                  <img class="profile img-fluid" src="./src/profile.png" alt="Thauan">
                      <div class="apresentacao__conteudo__hardskills">
                         <div class="apresentacao__conteudo__hardskills__lista">
                            <div>
@@ -59,16 +64,17 @@
 
 
                </div>                 
-               
+
+              
                <div class="apresentacao__links"> 
-                  <a class="apresentacao__links__link" href="https://github.com/thauanb/">
+                  <a class="btn btn-outline-success btn-lg" href="https://github.com/thauanb/">
                   <img src="./src/github.png">
                      GitHub
                   </a>
-                  <a class="apresentacao__links__link" href="https://www.instagram.com.br/thauanbarcellos">
+                  <a class="btn btn-outline-success btn-lg" href="https://www.instagram.com.br/thauanbarcellos">
                      <img src="./src/instagram.png">
                      Instagram</a>
-                  <a class="apresentacao__links__link" href="https://www.linkedin.com/in/thauan-vieira-de-barcellos/">
+                  <a class="btn btn-outline-success btn-lg" href="https://www.linkedin.com/in/thauan-vieira-de-barcellos/">
                      <img src="./src/linkedin.png">
                      Linkedin</a>
                </section>
@@ -78,5 +84,4 @@
       <footer class="rodape">
          <p> Desenvolvido po Thauan Vieira de Barcellos</p>
       </footer>
-      
    </html>
